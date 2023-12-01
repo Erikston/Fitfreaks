@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitfreaks</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg" alt=""></a>
+            <div class="nav-links" id="navlinks"> 
+                <i class="fa fa-times" onclick="hideMenu()" >
+                </i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu" >
+            </i>
+        </nav>
+        <h1>Our Services</h1>
+
+    </section>
+
+<!------services----->
+<section class="services">
+    <h1>Services We Can Offer</h1>
+    <div class="row">
+        <div class="services-col">
+            <img src="images/yoga.jpg">
+            <h3>Yoga</h3>
+            <p>Yoga focuses on three major factors in fitness; our mind, body, and soul. Yoga helps increase our body's strength, core stability & flexibility whilst helping improve our heart & circulatory health. At Zest Fitness Studio we focus on each individual's needs to help increase your body both physically and mentally. We look at all aspects of Yoga for clients to ensure we improve each and every one that enters our studio doors.
+
+            </p>
+        </div>
+        <div class="services-col">
+            <img src="images/treadmill.jpg">
+            <h3>Treadmill</h3>
+            <p>Treadmills provide outstanding cardiovascular exercises, which can significantly enhance your heart health. Thanks to their ability to maintain constant heart rates throughout the exercise. If you've high cholesterol or cardiovascular issues, this can be very beneficial.
+
+            </p>
+
+        </div>
+        <div class="services-col">
+            <img src="images/weigthlifting.jpg">
+            <h3>Weghtlefting</h3>
+            <p>Weight training is also known as resistance or strength training. It involves moving parts of your body against some kind of resistance, like weights, resistance bands, weight machines, or even your own body weight. Weight training is an excellent way to build muscle mass and make your muscles stronger.
+
+            </p>
+        </div>
+        <div class="services-col">
+            <img src="images/boxing.jpg">
+            <h3>Boxing</h3>
+            <p>Boxing is one of the best forms of cardio in addition to improving hand and eye coordination and decreasing stress. Boxing can be done by all age groups and offers a form of self-defense. At Zest Fitness Studio, you can practice in a boxing ring for a great experience while working out.
+
+            </p>
+        </div>
+        <div class="services-col">
+            <img src="images/equipment.jpg">
+            <h3>Equipments</h3>
+            <p>Squat Rack,Barbells,Dumbbells,Treadmill,Elliptical Machine,Stationary Bike,Rowing Machine,Leg Press Machine,Cable Machine,Pull-Up Bar,some other Equipments we can offer you
+                
+            </p>
+        </div>
+    </div>
+
+</section>
+
+
+<!------- footer----->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>“Fitness is not just about the body, it’s a state of mind. At FitFreaks,<br>we believe that every individual has the potential to achieve their fitness goals
+    </p>
+    <div class="icons">
+
+    </div>
+</section>
+
+
+
+<!--------javascript for toggle menu------->
+    <script>
+
+        var navlinks = document.getElementById("navlinks")
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+        
+    
+    
+</body>
+</html>
